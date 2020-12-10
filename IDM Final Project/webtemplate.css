@@ -48,6 +48,7 @@ a:hover{
  .background{
      background-color: rgb(40, 121, 45);
      padding: 10px;
+     overflow: auto;
  }
  .background_marg{
     margin: 1.5rem auto;
