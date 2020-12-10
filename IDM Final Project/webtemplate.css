@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: sans-serif ;
+    src: url(Calluna-Regular.otf);
+}
+
+.art{ 
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax (250px, 1fr));
+    grid-gap: 1.75rem;
+    padding: 10em 5rem 5rem;
+}
+.images{
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.about{
+    border-width: 1em;
+    font-size: 1 rem;
+    font-family: 'Calluna Regular', 'sans-serif';
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+    max-width: 750px;
+    bottom: 0;
+}
+
+a:link{
+    color: blue;
+}
+:visited{
+    color: #D10404;
+}
+a:hover{
+    color: #D10404;
+}
+
+ .home{
+     height: 6rem;
+     width: 3.75rem;
+     margin: 1rem;
+ }
+ .background{
+     background-color: rgb(40, 121, 45);
+     padding: 10px;
+ }
+ .background_marg{
+    margin: 1.5rem auto;
+}
